@@ -1,0 +1,11 @@
+version: '3'
+services:
+  anki-sync:
+    image: anki-syncserver:23.12.1
+    container_name: anki-sync
+    environment:
+      SYNC_USER1: "username:password"
+    ports:
+      - 8080:8080
+    volumes:
+      - ./data:/data
