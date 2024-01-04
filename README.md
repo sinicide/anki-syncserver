@@ -1,6 +1,8 @@
 # anki-syncserver
 Anki Sync Server Container Image Build
 
+Anki Version: 23.12.1
+
 ## Build
 ```
 make build
