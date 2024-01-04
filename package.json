@@ -1,4 +1,7 @@
 {
     "name": "anki-syncserver",
-    "private": true
+    "private": true,
+    "release": {
+        "branches": ["main"]
+    }
 }
