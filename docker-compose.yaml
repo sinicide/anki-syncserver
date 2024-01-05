@@ -1,6 +1,9 @@
 version: '3'
 services:
   anki-sync:
+    # image version here is for local testing, use an actual docker or ghcr tag for actual
+    # ghcr.io/sinicide/anki-syncserver:<v1.x.x>
+    # sinicide/anki-syncserver:<v1.x.x>
     image: anki-syncserver:23.12.1
     container_name: anki-sync
     environment:
